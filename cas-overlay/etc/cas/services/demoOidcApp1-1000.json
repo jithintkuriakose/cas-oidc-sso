@@ -1,0 +1,17 @@
+{
+  "@class": "org.apereo.cas.services.OidcRegisteredService",
+  "clientId": "demoOidcApp1",
+  "clientSecret": "password",
+  "serviceId": "^http://localhost:8080/redirect",
+  "signIdToken": true,
+  "implicit": true,
+  "bypassApprovalPrompt": false,
+  "name": "Demo App 1",
+  "id": 1000,
+  "evaluationOrder": 100,
+  "encryptIdToken": false,
+  "jwks": "file:/etc/cas/keystore",
+  "scopes": [ "java.util.HashSet",
+    [ "openid","profile","accountId","email","firstName","lastName" ]
+  ]
+}
